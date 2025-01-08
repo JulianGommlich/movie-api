@@ -20,7 +20,7 @@ public class MovieApiApplication {
     public CorsFilter corsWebFilter() {
         var corsConfig = new CorsConfiguration();
         corsConfig.setMaxAge(8000L);
-        corsConfig.setAllowedOrigins(Arrays.asList("http://localhost:5173"));
+        corsConfig.setAllowedOrigins(Arrays.asList("http://localhost:3000"));
         corsConfig.setAllowedMethods(Arrays.asList("DELETE", "OPTIONS", "PUT", "POST", "GET"));
         corsConfig.setAllowedHeaders(Arrays.asList("*"));
 
