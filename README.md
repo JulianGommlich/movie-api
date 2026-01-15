@@ -45,3 +45,4 @@ podman run -p 8080:8080 ghcr.io/juliangommlich/movie-api:latest
 ## Further Information
 
 To see the other part of the application, visit the [Frontend Repo](https://github.com/JulianGommlich/movie-ui).
+
